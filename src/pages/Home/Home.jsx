@@ -19,11 +19,13 @@ const Home = () => {
 
   return (
     <div className="container mx-auto ">
-      <h1 className="text-2xl hover:text-white cursor-pointer">Top Rated Movies</h1>
-      <div className="grid grid-cols-4 gap-10">
-      {topMovies.length === 0 && <p className="text-white">Carregando...</p>}
-      {topMovies.length > 0 && topMovies.map((movie) => 
-      <MovieCard key={movie.id} movie={movie}/>)}
+      <h1 className="text-2xl hover:text-white  cursor-pointer py-5 w-max transition ease-in-out duration-300 ">
+        Top Rated Movies
+      </h1>
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
+        {topMovies.length === 0 && <p className="text-white">Carregando...</p>}
+        {topMovies.length > 0 &&
+          topMovies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
       </div>
     </div>
   );
