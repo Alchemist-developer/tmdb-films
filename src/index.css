@@ -2,15 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 body {
     background-color: #121212;
-    color: rgba(97, 125, 58, 0.928);
+    color: rgba(233, 237, 228, 0.619);
 }
 
 a {
@@ -20,5 +23,5 @@ a {
 }
 
 a:hover {
-    color: rgba(195, 235, 140, 0.714);
+    color: rgba(246, 50, 50, 0.714);
 }
