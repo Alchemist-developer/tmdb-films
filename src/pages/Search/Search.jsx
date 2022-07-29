@@ -1,13 +1,7 @@
-import React from "react";
-
-// import { Container } from './styles';
-
-function Search() {
+const Search = () => {
   return (
-    <>
-      Search
-    </>
-  );
+    <div>Search</div>
+  )
 }
 
 export default Search;
