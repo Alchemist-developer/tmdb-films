@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 // import { Container } from './styles';
 
 function Movie() {
-  return <div />;
+  return <>Movie</>;
 }
 
 export default Movie;

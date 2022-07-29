@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 // import { Container } from './styles';
 
 function Home() {
-  return <div />;
+  return <>Home</>;
 }
 
 export default Home;
