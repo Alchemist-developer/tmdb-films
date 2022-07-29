@@ -1,9 +1,7 @@
-import React from "react";
-
-// import { Container } from './styles';
-
-function Movie() {
-  return <>Movie</>;
+const Movies = () => {
+  return (
+    <div>Movies haha</div>
+  )
 }
 
-export default Movie;
+export default Movies;
