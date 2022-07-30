@@ -1,5 +1,4 @@
 <p align="center">Alchemistic Movies [tmdb movies api]
-![image]()
 
 <table>
   <tr>
