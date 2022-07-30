@@ -1,9 +1,23 @@
-# tmdb-films
+<p align="center">Alchemistic Movies [tmdb movies api]
+
+<table>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/88943961/181868401-110a7079-5d47-4a3d-bf6c-d51cfe00477d.png"/></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/88943961/181870236-df08ba33-a734-41d9-801f-de3292572d6a.png"/></td>
+  </tr>
+</table>
 
 ## NPM scripts
 
-- **npm install**: install dependencies 
-- **npm run dev**: start the development server
+**Install dependencies:**
+```sh
+$ npm install
+``` 
+
+ **start the development server**
+ ```sh
+$ npm run dev
+``` 
 
 
 ## Dependencies
