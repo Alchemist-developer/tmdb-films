@@ -23,7 +23,7 @@ const Home = () => {
         Top Rated Movies
       </h1>
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
-        {topMovies.length === 0 && <p className="text-white">Carregando...</p>}
+        {topMovies.length === 0 && <p className="text-white ml-2">Carregando...</p>}
         {topMovies.length > 0 &&
           topMovies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
       </div>
