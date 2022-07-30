@@ -25,7 +25,7 @@ const Search = () => {
 
   return (
     <div className="container mx-auto ">
-      <h1 className="ml-2 text-2xl hover:text-white  cursor-pointer py-5 w-max transition ease-in-out duration-300 ">
+      <h1 className="mx-auto text-2xl hover:text-white  cursor-pointer py-5 w-max transition ease-in-out duration-300 ">
         Resultados para: <span className="text-yellow-100">{query}</span>
       </h1>
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
