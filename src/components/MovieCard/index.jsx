@@ -7,7 +7,7 @@ const MovieCard = ({ movie, showLink = true }) => {
   return (
     <div className="flex flex-col bg-gray-900 mx-auto p-3 px-5 rounded">
       <img
-        className="rounded-md py-1 h-80 max-w-full"
+        className="rounded-md py-1 h-80 max-w-full hover:grayscale transition ease-in-out duration-1000"
         src={imageUrl + movie.poster_path}
         alt={movie.title}
       />
